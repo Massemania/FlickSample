@@ -1,0 +1,125 @@
+﻿* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 12em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#results,
+#gallery {
+    padding: 2em;
+    border: 1px solid lightgrey;
+    border-radius: 4px;
+    margin: 2em;
+}
+
+#large,
+#text {
+    display: flex;
+    justify-content: center;
+}
+
+
+/*BLUR*/
+
+#results img,
+#gallery img {
+    transition: 0.3s;
+}
+
+#results img:hover,
+#gallery img:hover {
+    opacity: 0.7;
+}
+
+#results img,
+#gallery img {
+    border: 1px solid lightgrey;
+    border-radius: 4px;
+    margin: 2px;
+    padding: 2px;
+    width: 198px;
+    height: 198px;
+    background-color: white;
+    /*Scale down will take the necessary specified space that is 100px x 100px without stretching the image*/
+    object-fit: scale-down;
+}
+
+#large img {
+    border: 1px solid lightgrey;
+    border-radius: 4px;
+    margin: 4px;
+    margin-top: 25px;
+    padding: 4px;
+    background-color: white;
+}
+
+input {
+    max-width: 664px;
+    font-size: 2.3em;
+}
+
+#sbx {
+    width: 664x;
+}
+
+input:focus {
+    outline: none;
+}
+
+#search {
+    display: flex;
+    justify-content: center;
+}
+
+#logo img {
+    height: 200px;
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    background-color: #0063db;
+    border-radius: 4px;
+    color: white;
+    border: 2px solid #0063db;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+    ;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+.btn:hover {
+    background-color: #0154b8;
+    color: white;
+}
+
+#viewGallery {
+    display: flex;
+    justify-content: center;
+}
+
+#textInsideHeadGallery {
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#headerGallery {
+    display: flex;
+    justify-content: center;
+}
