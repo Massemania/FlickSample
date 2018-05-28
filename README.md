@@ -20,3 +20,5 @@ Regler Inga tredjepartsbibliotek (som tex Angular eller Jquery) är tillåtna.
 Färdig lösning ska finnas publikt på Github eller Bitbucket.
 
 För att testköra lösningen ska man endast behöva klona repot hos ovanstående tjänst och dubbelklicka på index.html. Alltså är endast HTML, CSS och Javascript tillåtet.
+
+Testat i Firefox och Chrome.
